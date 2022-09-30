@@ -21,8 +21,8 @@ let package = Package(
                     .product(name: "Flurry", package: "FlurrySwiftPackage")],
                 resources: [ .process("YahooAdsResources.bundle") ]),
         .binaryTarget(name: "YahooAds",
-                      url: "https://artifactory.yahooinc.com/artifactory/ios-yahoo-ads-sdk/ios-yahoo-mobile-sdk/1.1.0/ios-yahoo-mobile-sdk-cocoapods-1.1.0.zip",
-                      checksum: "5b4bfd402fd1b85c5be779fed8c2acd3065ea3c994ea14a928c1eac4b27b9ebd")
+                      url: "https://artifactory.yahooinc.com/artifactory/ios-yahoo-ads-sdk/ios-yahoo-mobile-sdk/1.2.0/ios-yahoo-mobile-sdk-cocoapods-1.2.0.zip",
+                      checksum: "8031c9b62053bf38b72bcaf058e6eb97527f4fe910c5ed3c89ce8334eab7e0f5")
 
     ]
 )
